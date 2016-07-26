@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		746E01F91D478E5600092A40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 746E01F81D478E5600092A40 /* main.m */; };
+		746E01FC1D478E5600092A40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 746E01FB1D478E5600092A40 /* AppDelegate.m */; };
+		746E01FF1D478E5600092A40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746E01FE1D478E5600092A40 /* ViewController.m */; };
+		746E02021D478E5600092A40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746E02001D478E5600092A40 /* Main.storyboard */; };
+		746E02041D478E5600092A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746E02031D478E5600092A40 /* Assets.xcassets */; };
+		746E02071D478E5600092A40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746E02051D478E5600092A40 /* LaunchScreen.storyboard */; };
+		746E02121D478E5600092A40 /* PokeRadarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746E02111D478E5600092A40 /* PokeRadarTests.m */; };
+		746E021D1D478E5600092A40 /* PokeRadarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746E021C1D478E5600092A40 /* PokeRadarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		746E020E1D478E5600092A40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 746E01EC1D478E5600092A40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746E01F31D478E5600092A40;
+			remoteInfo = PokeRadar;
+		};
+		746E02191D478E5600092A40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 746E01EC1D478E5600092A40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746E01F31D478E5600092A40;
+			remoteInfo = PokeRadar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		746E01F41D478E5600092A40 /* PokeRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746E01F81D478E5600092A40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		746E01FA1D478E5600092A40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		746E01FB1D478E5600092A40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		746E01FD1D478E5600092A40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		746E01FE1D478E5600092A40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		746E02011D478E5600092A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		746E02031D478E5600092A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746E02061D478E5600092A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		746E02081D478E5600092A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746E020D1D478E5600092A40 /* PokeRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		746E02111D478E5600092A40 /* PokeRadarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokeRadarTests.m; sourceTree = "<group>"; };
+		746E02131D478E5600092A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746E02181D478E5600092A40 /* PokeRadarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeRadarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		746E021C1D478E5600092A40 /* PokeRadarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokeRadarUITests.m; sourceTree = "<group>"; };
+		746E021E1D478E5600092A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		746E01F11D478E5600092A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746E020A1D478E5600092A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746E02151D478E5600092A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		746E01EB1D478E5600092A40 = {
+			isa = PBXGroup;
+			children = (
+				746E01F61D478E5600092A40 /* PokeRadar */,
+				746E02101D478E5600092A40 /* PokeRadarTests */,
+				746E021B1D478E5600092A40 /* PokeRadarUITests */,
+				746E01F51D478E5600092A40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		746E01F51D478E5600092A40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				746E01F41D478E5600092A40 /* PokeRadar.app */,
+				746E020D1D478E5600092A40 /* PokeRadarTests.xctest */,
+				746E02181D478E5600092A40 /* PokeRadarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		746E01F61D478E5600092A40 /* PokeRadar */ = {
+			isa = PBXGroup;
+			children = (
+				746E01FA1D478E5600092A40 /* AppDelegate.h */,
+				746E01FB1D478E5600092A40 /* AppDelegate.m */,
+				746E01FD1D478E5600092A40 /* ViewController.h */,
+				746E01FE1D478E5600092A40 /* ViewController.m */,
+				746E02001D478E5600092A40 /* Main.storyboard */,
+				746E02031D478E5600092A40 /* Assets.xcassets */,
+				746E02051D478E5600092A40 /* LaunchScreen.storyboard */,
+				746E02081D478E5600092A40 /* Info.plist */,
+				746E01F71D478E5600092A40 /* Supporting Files */,
+			);
+			path = PokeRadar;
+			sourceTree = "<group>";
+		};
+		746E01F71D478E5600092A40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				746E01F81D478E5600092A40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		746E02101D478E5600092A40 /* PokeRadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				746E02111D478E5600092A40 /* PokeRadarTests.m */,
+				746E02131D478E5600092A40 /* Info.plist */,
+			);
+			path = PokeRadarTests;
+			sourceTree = "<group>";
+		};
+		746E021B1D478E5600092A40 /* PokeRadarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				746E021C1D478E5600092A40 /* PokeRadarUITests.m */,
+				746E021E1D478E5600092A40 /* Info.plist */,
+			);
+			path = PokeRadarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		746E01F31D478E5600092A40 /* PokeRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746E02211D478E5600092A40 /* Build configuration list for PBXNativeTarget "PokeRadar" */;
+			buildPhases = (
+				746E01F01D478E5600092A40 /* Sources */,
+				746E01F11D478E5600092A40 /* Frameworks */,
+				746E01F21D478E5600092A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokeRadar;
+			productName = PokeRadar;
+			productReference = 746E01F41D478E5600092A40 /* PokeRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		746E020C1D478E5600092A40 /* PokeRadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746E02241D478E5600092A40 /* Build configuration list for PBXNativeTarget "PokeRadarTests" */;
+			buildPhases = (
+				746E02091D478E5600092A40 /* Sources */,
+				746E020A1D478E5600092A40 /* Frameworks */,
+				746E020B1D478E5600092A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746E020F1D478E5600092A40 /* PBXTargetDependency */,
+			);
+			name = PokeRadarTests;
+			productName = PokeRadarTests;
+			productReference = 746E020D1D478E5600092A40 /* PokeRadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		746E02171D478E5600092A40 /* PokeRadarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746E02271D478E5600092A40 /* Build configuration list for PBXNativeTarget "PokeRadarUITests" */;
+			buildPhases = (
+				746E02141D478E5600092A40 /* Sources */,
+				746E02151D478E5600092A40 /* Frameworks */,
+				746E02161D478E5600092A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746E021A1D478E5600092A40 /* PBXTargetDependency */,
+			);
+			name = PokeRadarUITests;
+			productName = PokeRadarUITests;
+			productReference = 746E02181D478E5600092A40 /* PokeRadarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		746E01EC1D478E5600092A40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yeung Yiu Hung";
+				TargetAttributes = {
+					746E01F31D478E5600092A40 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					746E020C1D478E5600092A40 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 746E01F31D478E5600092A40;
+					};
+					746E02171D478E5600092A40 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 746E01F31D478E5600092A40;
+					};
+				};
+			};
+			buildConfigurationList = 746E01EF1D478E5600092A40 /* Build configuration list for PBXProject "PokeRadar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 746E01EB1D478E5600092A40;
+			productRefGroup = 746E01F51D478E5600092A40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				746E01F31D478E5600092A40 /* PokeRadar */,
+				746E020C1D478E5600092A40 /* PokeRadarTests */,
+				746E02171D478E5600092A40 /* PokeRadarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		746E01F21D478E5600092A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746E02071D478E5600092A40 /* LaunchScreen.storyboard in Resources */,
+				746E02041D478E5600092A40 /* Assets.xcassets in Resources */,
+				746E02021D478E5600092A40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746E020B1D478E5600092A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746E02161D478E5600092A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		746E01F01D478E5600092A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746E01FF1D478E5600092A40 /* ViewController.m in Sources */,
+				746E01FC1D478E5600092A40 /* AppDelegate.m in Sources */,
+				746E01F91D478E5600092A40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746E02091D478E5600092A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746E02121D478E5600092A40 /* PokeRadarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746E02141D478E5600092A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746E021D1D478E5600092A40 /* PokeRadarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		746E020F1D478E5600092A40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 746E01F31D478E5600092A40 /* PokeRadar */;
+			targetProxy = 746E020E1D478E5600092A40 /* PBXContainerItemProxy */;
+		};
+		746E021A1D478E5600092A40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 746E01F31D478E5600092A40 /* PokeRadar */;
+			targetProxy = 746E02191D478E5600092A40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		746E02001D478E5600092A40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746E02011D478E5600092A40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		746E02051D478E5600092A40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746E02061D478E5600092A40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		746E021F1D478E5600092A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		746E02201D478E5600092A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		746E02221D478E5600092A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokeRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkcl.PokeRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		746E02231D478E5600092A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokeRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkcl.PokeRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		746E02251D478E5600092A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokeRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkcl.PokeRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeRadar.app/PokeRadar";
+			};
+			name = Debug;
+		};
+		746E02261D478E5600092A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokeRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkcl.PokeRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeRadar.app/PokeRadar";
+			};
+			name = Release;
+		};
+		746E02281D478E5600092A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokeRadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkcl.PokeRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PokeRadar;
+			};
+			name = Debug;
+		};
+		746E02291D478E5600092A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokeRadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkcl.PokeRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PokeRadar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		746E01EF1D478E5600092A40 /* Build configuration list for PBXProject "PokeRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746E021F1D478E5600092A40 /* Debug */,
+				746E02201D478E5600092A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746E02211D478E5600092A40 /* Build configuration list for PBXNativeTarget "PokeRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746E02221D478E5600092A40 /* Debug */,
+				746E02231D478E5600092A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		746E02241D478E5600092A40 /* Build configuration list for PBXNativeTarget "PokeRadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746E02251D478E5600092A40 /* Debug */,
+				746E02261D478E5600092A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		746E02271D478E5600092A40 /* Build configuration list for PBXNativeTarget "PokeRadarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746E02281D478E5600092A40 /* Debug */,
+				746E02291D478E5600092A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 746E01EC1D478E5600092A40 /* Project object */;
+}
